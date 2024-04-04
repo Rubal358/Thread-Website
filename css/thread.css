@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    background-color:#D91E1E;
+}
+.logo{
+    display: inline;
+    margin-left: 200px;
+}
+.searchbar{
+    width: 252px;
+    height: 35px;
+    border-radius: 25px;
+    margin-left: 106px;
+}
+.navbar p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 500px;
+    margin-left: 12px;
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 69px;
+}
+.navlist li{
+    display: inline-block;
+    padding-left: 70px;
+    color: white;
+}
+.navlist li a{
+    padding:  6px 9px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.navbar li a:hover{
+    color: #D91E1E;
+    background-color: #ffffff;
+    /* padding:  6px 9px; */
+}
+
+.login-btn{
+    background-color: white;
+    padding: 9px 29px;
+    font-weight: 500;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 70px;
+    color: #D91E1E;
+}
+.hero1{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 100%;
+    height: 613px;
+    background-color: #D91E1E;
+    background-image:url(../img/thread/hero\ banner\ red.png) ;
+    background-repeat: no-repeat;
+}
+.hero1 section{
+    margin-left: 200px;
+}
+.hero1 h2{
+    margin-top:100px;
+    font-size: 69px;
+    font-weight: 700;
+    color: white;
+}
+.sub-heading{
+    margin-top: -20px;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+.hero1 h3{
+    margin-top: -20px;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+}
+.sub-heading{
+    margin-top: 51px;
+}
+.hero1 ul{
+    font-weight: 500;
+    font-size: 19px;
+    color: white;
+    word-spacing: 3px;
+    margin-left: 40px;
+    line-height: 30px;
+}
+span{
+    font-weight: 300;
+    font-size: 19px;
+}
+.cta-topPlaylist{
+    display: flex;
+    align-items: center;
+}
+.cta-topPlaylist p{
+    margin-top: 29px;
+    display: inline-block;
+    padding: 13px 33px;
+    color: #D91E1E;
+    background-color: white;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 25px;
+}
+.cta-topPlaylist img{
+    margin-top: 34px;
+    margin-left: 15px;
+}
+.hero2 h3{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 200px;
+    padding-top:50px;
+    padding-bottom:50px;
+    font-weight: 600;
+    font-size:1.4375rem;
+}
+.container{
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding-bottom: 50px;
+}
+.content1{
+    position: relative;
+    background-color: #FFBCBC;
+    width: 264.37px;
+    height: 255px;
+    top: 0;
+    border-radius: 25px;
+    background-image: url(../img/thread/chill.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+.mini-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    height: 74px;
+    width: 100%;
+    top: 181px;
+    border-radius: 0px 0px 25px 25px;
+    padding: 30px;
+}
+.mini-footer p{
+    width: 50%;
+    color: white;
+}
+.showmore{ 
+    background-color: #D91E1E;
+    
+    padding: 0.975rem 2.3rem;
+    border-radius: 1.5625rem;
+}
+.showmore a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.hero3{
+    display:flex;
+    flex-direction: column;
+    padding-top: 4.375rem;
+    width: 100%;
+    height: 20.84rem;
+    margin-top: 3.875rem;
+    background-image: url(../img/thread/hero3.png);
+    background-size: cover;
+}
+.hero3 h1, .hero3 p{   
+    font-family: 'Poppins', sans-serif; 
+    padding-top: .675rem;
+    margin-left: 12.5rem;
+}
+.play{
+    width: 6.25rem;
+    height: 2.375rem;
+    margin-left: 12.5rem;
+    margin-top: 1.375rem;
+    background-color: #D91E1E;
+    border-radius: 1.25rem;
+    border: none;
+    color: white;
+    padding: .725rem 1.375rem;
+    font-size: 1rem;
+}
+.hero4{
+    background: linear-gradient(#D91E1E,#9E0000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero4 h1{
+    margin-top: 6rem;
+    font-weight: 500;
+    font-size: 3.0625rem;
+    color: white;
+}
+.login-btn-2{
+    background-color: white;
+    padding: .75rem 4.125rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 1.875rem;
+    border-radius: 30px;
+    color: #D91E1E;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 3rem;
+    margin-bottom: 6.25rem;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5625rem;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: rgb(127, 127, 127);
+    padding: .625rem;
+}
+.box p{
+    color: white;
+}
+.box ul{
+    font-family: 'League Spartan';
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 2rem;
+    list-style:none;
+}
+.box ul li{
+    line-height: 1.9rem;
+}
+.box ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.box h3{
+    color: white;
+    font-family: 'League Spartan';
+    font-weight: 500;
+    font-size: 25px;
+}

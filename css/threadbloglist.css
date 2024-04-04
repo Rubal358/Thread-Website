@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    background-color:#D91E1E;
+}
+.logo{
+    display: inline;
+    margin-left: 200px;
+}
+.searchbar{
+    width: 252px;
+    height: 35px;
+    border-radius: 25px;
+    margin-left: 106px;
+}
+.navbar p{
+    color: white;
+    font-size: 30px;
+    font-weight: 500px;
+    margin-left: 12px;
+}
+.navlist{
+    margin-left: 69px;
+}
+.navlist li{
+    display: inline;
+    padding-left: 80px;
+}
+.navlist li a{
+    padding:  6px 9px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.navbar li a:hover{
+    color: #D91E1E;
+    background-color: #ffffff;
+    
+}
+.login-btn{
+    background-color: white;
+    padding: 9px 29px;
+    font-weight: 500;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 70px;
+    color: #D91E1E;
+}
+.categories{
+    position:sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+}
+.categories ul{
+    margin-left: 170px;
+}
+.categories ul li{
+    font-weight: 500;
+    padding: 15px;
+    display: inline-block;
+}
+.categories a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.hero1{
+    display: flex;
+    padding-top: 50px;
+    width: 100%;
+}
+aside{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background-color:white;
+    padding-left: 50px;
+    padding-right: 30px;
+    border-right: 2px solid #D91E1E;
+}
+aside p{
+    /* padding-left: 50px; */
+    font-weight: 700;
+    font-size: 23px;
+}
+aside ul{
+    margin-top: 20px;
+    display: block;
+}
+aside ul li a{
+    font-size:17px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+}
+.hero1 section{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    width: 60%;
+    padding-bottom: 50px;
+}
+
+.list1{
+    display: flex;
+    padding-bottom: 50px;
+    gap: 1.25rem;
+}
+.textcontent a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    margin-top: 40px;
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 26rem;   
+}
+.box{
+    margin-top: 20px;
+}
+.box ul li{
+    margin-top: 10px;
+}
+.box h4{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.box ul li a{
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+}
+.box ul li a:hover{
+    color:#D91E1E
+}
+figcaption{
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+}

@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: bisque;
+}
+.logo{
+    float: left;
+    margin-left: 200px;
+}
+.navbar{
+    float: right;
+    margin-right: 200px;
+    margin-top: 25px;
+}
+.navbar a {
+    font-size:20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+}
+.headline1{
+    display: inline;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para1{
+    margin-top: 50px;
+    float: left;
+    margin-left: 200px;
+    width: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.banner1{
+    margin-top: 50px;
+    float: right;
+    margin-right: 222px;
+}
+.button{
+    font-size: 17px;
+    color: rgb(99, 35, 0);
+    border-radius: 10px;
+    padding: 12px 32px 12px 32px;
+    float: left;
+    background-color: tan;
+}
+figure{
+    float: left;
+    margin-left: 168px;
+}
+figcaption{
+    font-size:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 80px;
+}
+footer{
+    background-color: rgb(235, 235, 235);
+}
+footer ul{
+    line-height: 25px;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    margin-left: 100px;
+    padding-left: 84px;
+}
+.footer2{
+    background-color: black;
+    color: white;
+}
+.footer2 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 725px;
+    padding: 8px;
+}

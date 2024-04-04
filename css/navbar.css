@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+    height: 80px;
+}
+.logo{
+    float: left;
+    margin-top: 18px;
+    margin-left: 40px;
+}
+.logo-title{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    color: white;
+    margin-left: 536px;
+    margin-top: 21px;
+}
+.nav-list{
+    float: right;
+}
+
+.nav-item{
+    display: inline-block;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-right: 22px;
+    margin-top: 11px;
+    width:100px ;
+    height: 25px;
+  }
+.nav-item a{
+    display: inline-block;
+}
+.nav-item a:hover{
+    background-color: aliceblue;
+    color: black;
+    width:100% ;
+    height: 100%;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+}
+.article{
+    border: 2px solid white;
+}
+.selection1{
+    /* position: absolute; */
+    /* height: 100px; */
+    /* width: 100%; */
+}
+
+.box1{
+    
+    /* float: left; */
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.132);
+    border-radius: 10px;
+    width: 409px;
+    height: 261px;
+    top: 226px;
+    left: 129px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box1 h3{
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.box1 p{
+    margin-top: 32px;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.button{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: rgb(0, 184, 0);
+    /* padding: 15px 44px 15px 43px; */
+    border-radius: 10px;
+    /* top: 181px; */
+    left: 140px;
+}
+.button a{
+    display: inline-block;
+   
+    color: white;
+    background-color: rgb(0, 184, 0);
+    border-radius: 10px;
+    width: 40px;
+    padding: 15px 44px 15px 43px;
+}
