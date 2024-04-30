@@ -100,3 +100,110 @@ body{
     width: 40px;
     padding: 15px 44px 15px 43px;
 }
+/* Default styles */
+
+/* Styles for desktop */
+@media screen and (min-width: 1024px) {
+    .logo {
+        margin-left: 40px;
+    }
+    .logo-title {
+        margin-left: 536px;
+    }
+    .nav-list {
+        float: right;
+    }
+    .nav-item {
+        margin-right: 22px;
+        margin-top: 11px;
+        width: auto;
+        height: auto;
+    }
+    .nav-item a:hover {
+        margin-top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .box1 {
+        width: 409px;
+        height: 261px;
+        top: 226px;
+        left: 129px;
+    }
+    .button {
+        left: 140px;
+    }
+}
+
+/* Styles for tablets */
+@media screen and (max-width: 1023px) {
+    .logo {
+        margin-left: 20px;
+    }
+    .logo-title {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .nav-list {
+        float: none;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .nav-item {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: auto;
+        height: auto;
+    }
+    .nav-item a:hover {
+        margin-top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .box1 {
+        width: 80%;
+        height: auto;
+        top: 226px;
+        left: 10%;
+    }
+    .button {
+        left: calc(50% - 75px); /* Adjust as needed */
+    }
+}
+
+/* Styles for mobile devices */
+@media screen and (max-width: 767px) {
+    .logo {
+        margin-left: 10px;
+    }
+    .logo-title {
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .nav-list {
+        display: none;
+    }
+    .nav-item {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: auto;
+        height: auto;
+    }
+    .nav-item a:hover {
+        margin-top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .box1 {
+        width: 90%;
+        height: auto;
+        top: 226px;
+        left: 5%;
+    }
+    .button {
+        left: calc(50% - 75px); /* Adjust as needed */
+    }
+}
